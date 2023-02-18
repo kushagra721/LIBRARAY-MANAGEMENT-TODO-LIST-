@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Inter;
+  color: #ffffff;
+}
+body {
+  background-color: #1e1e1e;
+}
+.container {
+  margin-right: 32px;
+  margin-bottom: 35px;
+  margin-top: 35px;
+  margin-left: 32px;
+  max-width: 100%;
+}
+
+/* .icon {
+        color: green;
+    } */
+
+h1 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #ffffff;
+  font-family: Inter;
+  text-align: left;
+  margin-bottom: 40px;
+}
+
+form {
+  /* display: flex; */
+  /* flex-direction: column; */
+  margin-bottom: 20px;
+}
+
+label {
+  margin-bottom: 5px;
+  display: inline;
+}
+
+input[type="text"] {
+  width: 536px;
+  height: 34px;
+  display: inline;
+  padding: 10px;
+  margin-bottom: 37px;
+  background-color: #1e1e1e;
+  /* border-radius: 5px; */
+  border: 1px solid #ccc;
+}
+#book-name {
+  margin-left: 20px;
+}
+#issued-to {
+  margin-left: 35px;
+}
+
+button[type="submit"] {
+  width: 670px;
+  height: 57px;
+  padding: 10px 20px;
+  background-color: #fff;
+  color: black;
+  font-weight: bolder;
+  font-size: 24px / 2;
+  border: none;
+  /* border-radius: 5px; */
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th {
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+td {
+  padding: 10px;
+  padding-left: 20px;
+  font-weight: lighter;
+}
+td:first-child {
+  border-left: 1px solid white;
+}
+
+tr:last-child {
+  border-bottom: 1px solid white;
+}
+td {
+  border-right: 1px solid white;
+} 
+td:nth-child(5) {
+  border-right: none;
+}
+
+th {
+  padding-left: 20px;
+  background-color: #1e1e1e;
+  color: #fff;
+  font-weight: lighter;
+  text-align: left;
+}
+
+.status {
+  color: red;
+}
+
+.status.returned {
+  color: #9fff24;
+}
+
+.icon {
+  color: #fff;
+  cursor: pointer;
+}

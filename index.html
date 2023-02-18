@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Library Management System</title>
+    <link rel="shortcut icon" href="https://png.pngtree.com/png-vector/20190527/ourmid/pngtree-book-icon-png-image_1110447.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Library Management System</h1>
+      <form id="book-form">
+        <label for="book-name">Book Name</label>
+        <input type="text" id="book-name" required />
+        <br />
+        <label for="issued-to">Issued To</label>
+        <input type="text" id="issued-to" required />
+        <br />
+        <button type="submit" id="issue-book-btn">Issue Book</button>
+      </form>
+      <table id="issued-books-table">
+        <thead>
+          <tr>
+            <th>ID</th>
+            <th>Book Name</th>
+            <th>Issued To</th>
+            <th>Issue Date and Time</th>
+            <th style="width: 100px; border-right: none">Status</th>
+            <th style="width: 30px; border-left: none"></th>
+          </tr>
+        </thead>
+        <tbody id="issued-books-body"></tbody>
+      </table>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
